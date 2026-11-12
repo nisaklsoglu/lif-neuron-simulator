@@ -1,0 +1,12 @@
+[project]
+name = "lif"
+version = "0.1.0"
+description = "Leaky Integrate-and-Fire (LIF) neuron simulator"
+dependencies = ["numpy", "matplotlib"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
